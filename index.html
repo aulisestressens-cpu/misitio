@@ -1,69 +1,62 @@
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <title>Mi Sitio Web</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi sitio web</title>
+
     <style>
         body {
-            margin: 0;
             font-family: Arial, sans-serif;
-            background: linear-gradient(135deg, #7dd3fc, #a78bfa);
+            background: linear-gradient(135deg, #4facfe, #00f2fe);
+            margin: 0;
+            padding: 0;
             color: white;
             text-align: center;
         }
 
         header {
-            background: rgba(0, 0, 0, 0.2);
-            padding: 20px;
-            font-size: 28px;
-            font-weight: bold;
-        }
-
-        .container {
-            margin-top: 60px;
+            padding: 40px 20px;
         }
 
         h1 {
-            font-size: 48px;
-            margin-bottom: 10px;
+            font-size: 40px;
+            font-weight: bold;
         }
 
         p {
-            font-size: 22px;
-            margin-top: 0;
-        }
-
-        .button {
-            display: inline-block;
-            background: white;
-            color: #4f46e5;
-            padding: 12px 25px;
-            border-radius: 10px;
             font-size: 20px;
-            margin-top: 30px;
-            text-decoration: none;
-            font-weight: bold;
-            transition: 0.3s;
+            margin-top: 10px;
         }
 
-        .button:hover {
-            background: #e0e7ff;
+        .card {
+            background: rgba(255, 255, 255, 0.2);
+            margin: 30px auto;
+            padding: 20px;
+            width: 80%;
+            max-width: 400px;
+            border-radius: 15px;
+            backdrop-filter: blur(8px);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
         }
     </style>
 </head>
 <body>
 
     <header>
-        Bienvenido a mi sitio 😄
+        <h1>✨ ¡Bienvenido a mi web! ✨</h1>
+        <p>Hecha por un estudiante de 14 años 😎</p>
     </header>
 
-    <div class="container">
-        <h1>¡Hola! Soy un estudiante de 14 años</h1>
-        <p>Este es mi sitio web creado con GitHub Pages.</p>
+    <div class="card">
+        <h2>Sobre mí</h2>
+        <p>Me gusta la tecnología, los videojuegos y aprender cosas nuevas.</p>
+    </div>
 
-        <a class="button" href="https://github.com/aulisestressens-cpu" target="_blank">
-            Ver mi GitHub
-        </a>
+    <div class="card">
+        <h2>Mis hobbies 🎮</h2>
+        <p>Jugar, programar, fútbol y ver videos.</p>
     </div>
 
 </body>
